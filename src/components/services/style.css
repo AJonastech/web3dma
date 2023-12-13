@@ -1,0 +1,6 @@
+.svg-fill-hover:hover path {
+    fill: [desired-color] !important;
+  }
+  .mix-blend-multiply:not(.bg-no-repeat) {
+    mix-blend-mode: multiply;
+  }
