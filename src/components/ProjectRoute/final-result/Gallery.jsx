@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-
+import React from "react";
 import ClientTestimonial from "./ClientTestimonial";
 import Image from "./Image";
 import { useParams } from "react-router-dom";
@@ -12,15 +12,15 @@ function GalleryContainer() {
       <div className="w-full lg:space-y-[60px] space-y-[30px] ">
         {images.map((product, id) => {
           if (id + 1 === parseInt(images.length / 2)) {
-            console.log(id + 1);
             return (
-              <>
-                <Image product={product} key={id} />
+              <React.Fragment key={id}>
+                <Image product={product} />
                 <ClientTestimonial />
-              </>
+              </React.Fragment>
             );
+          } else {
+            return <Image product={product} key={id} />;
           }
-          return <Image product={product} key={id} />;
         })}
       </div>
     </>

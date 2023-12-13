@@ -54,12 +54,22 @@ export const serviceButtonData = [
 export const dataSection5 = {
   website: [
     {
-      title: "The Meat Man Whirral 1",
+      title: "The Meat Man Wirral ",
       subTitle: "ecommerce",
       image: `${baseUrl}/image1.png`,
       clientName: "Agu Jonas",
       clientTestimonial: "The team at web3dma not only brought my vision to life through a bespoke website but also moved my entire business online. This has transformed the way I run my business and I’m incredibly excited to see the growth",
-      images: [ "/test-1.png", "/test-2.png", "/test-3.png", "/test-4.png"]
+      images: [ "/test-1.png", "/test-2.png", "/test-3.png", "/test-4.png"],
+      service_Category: "Web Apps Design and Development",
+      service_description:
+        "Whether you need a website building from scratch, or a modernisation of what you currently have, we will help to drive more traffic to your business.",
+      service_features: [
+        "Web Apps Design and Development",
+        "UI/UX Design",
+        "Cloud Integration",
+        "E-Commerce",
+      ],
+      service_image: "/mobile.png"
     },
     {
       title: "Route Ninja",
@@ -67,7 +77,17 @@ export const dataSection5 = {
       image: `${baseUrl}/image3.png`,
       clientName: "Agu Jonas",
       clientTestimonial: "The team at web3dma not only brought my vision to life through a bespoke website but also moved my entire business online. This has transformed the way I run my business and I’m incredibly excited to see the growth",
-      images: [ "/test-1.png", "/test-2.png", "/test-3.png", "/test-4.png"]
+      images: [ "/test-1.png", "/test-2.png", "/test-3.png", "/test-4.png"],
+      service_Category: "Web Apps Design and Development",
+      service_description:
+        "Whether you need a website building from scratch, or a modernisation of what you currently have, we will help to drive more traffic to your business.",
+      service_features: [
+        "Web Apps Design and Development",
+        "UI/UX Design",
+        "Cloud Integration",
+        "E-Commerce",
+      ],
+      service_image: "/mobile.png"
     },
     {
       title: "MCC x MCC B",
@@ -75,17 +95,37 @@ export const dataSection5 = {
       image: `${baseUrl}/image2.png`,
       clientName: "Agu Jonas",
       clientTestimonial: "The team at web3dma not only brought my vision to life through a bespoke website but also moved my entire business online. This has transformed the way I run my business and I’m incredibly excited to see the growth",
-      images: [ "/test-1.png", "/test-2.png", "/test-3.png", "/test-4.png"]
+      images: [ "/test-1.png", "/test-2.png", "/test-3.png", "/test-4.png"],
+      service_Category: "Web Apps Design and Development",
+      service_description:
+        "Whether you need a website building from scratch, or a modernisation of what you currently have, we will help to drive more traffic to your business.",
+      service_features: [
+        "Web Apps Design and Development",
+        "UI/UX Design",
+        "Cloud Integration",
+        "E-Commerce",
+      ],
+      service_image: "/mobile.png"
     },
   ],
   apps: [
     {
-      title: "The Meat Man Whirral 2",
+      title: "The Meat Man Wirral",
       subTitle: "ecommerce",
       image: `${baseUrl}/image1.png`,
       clientName: "Agu Jonas",
       clientTestimonial: "The team at web3dma not only brought my vision to life through a bespoke website but also moved my entire business online. This has transformed the way I run my business and I’m incredibly excited to see the growth",
-      images: [ "/test-1.png", "/test-2.png", "/test-3.png", "/test-4.png"]
+      images: [ "/test-1.png", "/test-2.png", "/test-3.png", "/test-4.png"],
+      service_Category: "Web Apps Design and Development",
+      service_description:
+        "Whether you need a website building from scratch, or a modernisation of what you currently have, we will help to drive more traffic to your business.",
+      service_features: [
+        "Web Apps Design and Development",
+        "UI/UX Design",
+        "Cloud Integration",
+        "E-Commerce",
+      ],
+      service_image: "/mobile.png"
     },
     {
       title: "Route Ninja",
@@ -93,7 +133,17 @@ export const dataSection5 = {
       image: `${baseUrl}/image3.png`,
       clientName: "Agu Jonas",
       clientTestimonial: "The team at web3dma not only brought my vision to life through a bespoke website but also moved my entire business online. This has transformed the way I run my business and I’m incredibly excited to see the growth",
-      images: [ "/test-1.png", "/test-2.png", "/test-3.png", "/test-4.png"]
+      images: [ "/test-1.png", "/test-2.png", "/test-3.png", "/test-4.png"],
+      service_Category: "Web Apps Design and Development",
+      service_description:
+        "Whether you need a website building from scratch, or a modernisation of what you currently have, we will help to drive more traffic to your business.",
+      service_features: [
+        "Web Apps Design and Development",
+        "UI/UX Design",
+        "Cloud Integration",
+        "E-Commerce",
+      ],
+      service_image: "/mobile.png"
     },
     {
       title: "MCC x MCC B",
@@ -101,17 +151,37 @@ export const dataSection5 = {
       image: `${baseUrl}/image2.png`,
       clientName: "Agu Jonas",
       clientTestimonial: "The team at web3dma not only brought my vision to life through a bespoke website but also moved my entire business online. This has transformed the way I run my business and I’m incredibly excited to see the growth",
-      images: [ "/test-1.png", "/test-2.png", "/test-3.png", "/test-4.png"]
+      images: [ "/test-1.png", "/test-2.png", "/test-3.png", "/test-4.png"],
+      service_Category: "Web Apps Design and Development",
+      service_description:
+        "Whether you need a website building from scratch, or a modernisation of what you currently have, we will help to drive more traffic to your business.",
+      service_features: [
+        "Web Apps Design and Development",
+        "UI/UX Design",
+        "Cloud Integration",
+        "E-Commerce",
+      ],
+      service_image: "/mobile.png"
     },
   ],
   social: [
     {
-      title: "The Meat Man Whirral 3",
+      title: "The Meat Man Wirral",
       subTitle: "ecommerce",
       image: `${baseUrl}/image1.png`,
       clientName: "Agu Jonas",
       clientTestimonial: "The team at web3dma not only brought my vision to life through a bespoke website but also moved my entire business online. This has transformed the way I run my business and I’m incredibly excited to see the growth",
-      images: [ "/test-1.png", "/test-2.png", "/test-3.png", "/test-4.png"]
+      images: [ "/test-1.png", "/test-2.png", "/test-3.png", "/test-4.png"],
+      service_Category: "Web Apps Design and Development",
+      service_description:
+        "Whether you need a website building from scratch, or a modernisation of what you currently have, we will help to drive more traffic to your business.",
+      service_features: [
+        "Web Apps Design and Development",
+        "UI/UX Design",
+        "Cloud Integration",
+        "E-Commerce",
+      ],
+      service_image: "/mobile.png"
 
     },
     {
@@ -120,7 +190,17 @@ export const dataSection5 = {
       image: `${baseUrl}/image3.png`,
       clientName: "Agu Jonas",
       clientTestimonial: "The team at web3dma not only brought my vision to life through a bespoke website but also moved my entire business online. This has transformed the way I run my business and I’m incredibly excited to see the growth",
-      images: [ "/test-1.png", "/test-2.png", "/test-3.png", "/test-4.png"]
+      images: [ "/test-1.png", "/test-2.png", "/test-3.png", "/test-4.png"],
+      service_Category: "Web Apps Design and Development",
+      service_description:
+        "Whether you need a website building from scratch, or a modernisation of what you currently have, we will help to drive more traffic to your business.",
+      service_features: [
+        "Web Apps Design and Development",
+        "UI/UX Design",
+        "Cloud Integration",
+        "E-Commerce",
+      ],
+      service_image: "/mobile.png"
     },
     {
       title: "MCC x MCC B",
@@ -128,17 +208,37 @@ export const dataSection5 = {
       image: `${baseUrl}/image2.png`,
       clientName: "Agu Jonas",
       clientTestimonial: "The team at web3dma not only brought my vision to life through a bespoke website but also moved my entire business online. This has transformed the way I run my business and I’m incredibly excited to see the growth",
-      images: [ "/test-1.png", "/test-2.png", "/test-3.png", "/test-4.png"]
+      images: [ "/test-1.png", "/test-2.png", "/test-3.png", "/test-4.png"],
+      service_Category: "Web Apps Design and Development",
+      service_description:
+        "Whether you need a website building from scratch, or a modernisation of what you currently have, we will help to drive more traffic to your business.",
+      service_features: [
+        "Web Apps Design and Development",
+        "UI/UX Design",
+        "Cloud Integration",
+        "E-Commerce",
+      ],
+      service_image: "/mobile.png"
     },
   ],
   branding: [
     {
-      title: "The Meat Man Whirral 4",
+      title: "The Meat Man Wirral ",
       subTitle: "ecommerce",
       image: `${baseUrl}/image1.png`,
       clientName: "Agu Jonas",
       clientTestimonial: "The team at web3dma not only brought my vision to life through a bespoke website but also moved my entire business online. This has transformed the way I run my business and I’m incredibly excited to see the growth",
-      images: [ "/test-1.png", "/test-2.png", "/test-3.png", "/test-4.png"]
+      images: [ "/test-1.png", "/test-2.png", "/test-3.png", "/test-4.png"],
+      service_Category: "Web Apps Design and Development",
+      service_description:
+        "Whether you need a website building from scratch, or a modernisation of what you currently have, we will help to drive more traffic to your business.",
+      service_features: [
+        "Web Apps Design and Development",
+        "UI/UX Design",
+        "Cloud Integration",
+        "E-Commerce",
+      ],
+      service_image: "/mobile.png"
     },
     {
       title: "Route Ninja",
@@ -146,7 +246,17 @@ export const dataSection5 = {
       image: `${baseUrl}/image3.png`,
       clientName: "Agu Jonas",
       clientTestimonial: "The team at web3dma not only brought my vision to life through a bespoke website but also moved my entire business online. This has transformed the way I run my business and I’m incredibly excited to see the growth",
-      images: [ "/test-1.png", "/test-2.png", "/test-3.png", "/test-4.png"]
+      images: [ "/test-1.png", "/test-2.png", "/test-3.png", "/test-4.png"],
+      service_Category: "Web Apps Design and Development",
+      service_description:
+        "Whether you need a website building from scratch, or a modernisation of what you currently have, we will help to drive more traffic to your business.",
+      service_features: [
+        "Web Apps Design and Development",
+        "UI/UX Design",
+        "Cloud Integration",
+        "E-Commerce",
+      ],
+      service_image: "/mobile.png"
     },
     {
       title: "MCC x MCC B",
@@ -154,7 +264,17 @@ export const dataSection5 = {
       image: `${baseUrl}/image2.png`,
       clientName: "Agu Jonas",
       clientTestimonial: "The team at web3dma not only brought my vision to life through a bespoke website but also moved my entire business online. This has transformed the way I run my business and I’m incredibly excited to see the growth",
-      images: [ "/test-1.png", "/test-2.png", "/test-3.png", "/test-4.png"]
+      images: [ "/test-1.png", "/test-2.png", "/test-3.png", "/test-4.png"],
+      service_Category: "Web Apps Design and Development",
+      service_description:
+        "Whether you need a website building from scratch, or a modernisation of what you currently have, we will help to drive more traffic to your business.",
+      service_features: [
+        "Web Apps Design and Development",
+        "UI/UX Design",
+        "Cloud Integration",
+        "E-Commerce",
+      ],
+      service_image: "/mobile.png"
     },
   ],
 };

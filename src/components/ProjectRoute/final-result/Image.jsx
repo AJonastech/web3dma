@@ -7,7 +7,7 @@ function Image({ product }) {
       initial={{ y: 150 }}
       transition={{ duration: 0.5, delay: 0 }}
       whileInView={{ y: 0 }}
-      className="h-[60vh]  container mx-auto   cursor-pointer w-full relative "
+      className="h-[60vh]  container mx-auto max-w-[980px]  cursor-pointer w-full relative "
     >
       <img
         className="rounded-lg w-full h-full object-cover"

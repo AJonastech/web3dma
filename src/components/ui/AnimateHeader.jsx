@@ -12,9 +12,9 @@ function AnimateHeader({className, text, delay, type, size}) {
 }
 AnimateHeader.propTypes = {
   className: PropTypes.string,
-  text: React.ReactNode,
+  text: PropTypes.string,
   delay: PropTypes.number,
   type: PropTypes.string,
-  size:PropTypes.number
+  size:PropTypes.string
 }
 export default AnimateHeader

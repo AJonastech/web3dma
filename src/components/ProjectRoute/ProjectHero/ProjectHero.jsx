@@ -6,8 +6,10 @@ import MobileNav from "../../Hero/MobileNav";
 import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import { dataSection5 } from "../../../mockData";
+import { useNavigate } from "react-router-dom";
 function ProjectHero() {
   const { category, id } = useParams();
+  const navigate = useNavigate()
 
   const [showMobileNav, setShowMobileNav] = useState(false);
   const toggleNav = () => [setShowMobileNav(() => !showMobileNav)];
@@ -19,7 +21,7 @@ function ProjectHero() {
       <div className="h-[13px] z-10 animate-gradient"></div>
       <div className="relative bg-inherit bg-blend-soft-light">
         <header className="flex h-[87px] justify-between items-center relative px-3 lg:px-12">
-          <div className="flex cursor-pointer gap-1">
+          <div onClick={()=>{navigate("/")}} className="flex cursor-pointer gap-1">
             <img src={logo} alt="web3Dma logo" />
             <span className="text-2xl font-semibold tracking-wide">
               Web3dma

@@ -6,13 +6,15 @@ import {
   FinalResult,
   ServiceView,
 } from "../components";
+import ServiceOffered from "../components/ProjectRoute/service-offered/ServiceOffered";
+
 function Project() {
   return (
     <div className="w-full h-screen overflow-x-hidden select-none">
     
       <ProjectHero />
       <ClientTestimonial />
-      <ServiceView />
+      <ServiceOffered/>
       <FinalResult />
       <ContactView />
       <FootView />

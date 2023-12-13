@@ -40,7 +40,7 @@ function Portfolio() {
               />
             ))}
           </div>
-          <div className=" mt-5 lg:mt-[180px] max-w-[980px]    mx-auto lg:space-y-[40px] space-y-[30px]">
+          <div className=" mt-5 lg:mt-[180px] max-w-[980px]    mx-auto lg:space-y-[20px] space-y-[10px] ">
             {filteredServices?.map((project, id) => (
               <Project project={project} key={id} id={id} selectedService={selectedService} />
             ))}

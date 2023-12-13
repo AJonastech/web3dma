@@ -7,12 +7,14 @@ import { useState } from "react";
 import "./style.css";
 import Button from "./Button";
 import MobileNav from "./MobileNav";
+import { useNavigate } from "react-router-dom";
 function HeroView() {
-
+const navigate = useNavigate()
   const [showMobileNav, setShowMobileNav] = useState(false)
   const toggleNav =()=> {
     setShowMobileNav(!showMobileNav)
   }
+  
   return (
     <section
       id="hero"
@@ -21,7 +23,7 @@ function HeroView() {
       <div className="h-[13px] z-10 animate-gradient"></div>
       <div className="relative bg-inherit bg-blend-soft-light">
         <header className="flex h-[87px] justify-between items-center px-3  lg:px-12">
-          <div className="flex cursor-pointer gap-1">
+          <div onClick={()=>{navigate("/")}} className="flex cursor-pointer gap-1">
             <img src={logo} alt="web3Dma logo" />
             <span className="text-2xl font-semibold tracking-wide">
               Web3dma
