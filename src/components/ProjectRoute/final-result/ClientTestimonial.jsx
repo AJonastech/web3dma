@@ -12,7 +12,7 @@ function ClientTestimonial() {
       whileInView={{ y: 0 }}
       className=" w-full relative max-w-[980px] mx-auto flex flex-col gap-y-10 items-center px-5  justify-center min-h-[60vh] h-[60vh] bg-[#111141]"
     >
-      <blockquote className="flex relative lg:-mt-[20px] font-medium text-center lg:w-[80%] w-[90%] mx-auto  text-base lg:text-3xl lg:leading-[40px]">
+      <blockquote className="flex p-4 lg:p-0 relative lg:-mt-[20px] font-medium text-center lg:w-[80%] w-[90%] mx-auto  text-base lg:text-3xl lg:leading-[40px]">
         <img
           src={"/quote-left.svg"}
           className="w-[30px] absolute lg:-top-[60px] -top-[30px] lg:w-[60px] lg:h-[60px] h-[30px] object-cover"

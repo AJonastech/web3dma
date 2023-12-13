@@ -30,14 +30,14 @@ function ServiceOffered() {
         />
         <div className="flex  flex-col items-center relative">
           <AnimateHeader
-            delay={0.15}
+            delay={0}
             text={"Our"}
             className={
               "font-poppins text-white z-20 text-center uppercase text-3xl lg:text-[37.96px] lg:leading-[42.04px] font-semibold "
             }
           />
           <AnimateHeader
-            delay={0.3}
+            delay={0.1}
             size="large"
             text={"Service"}
             className={
@@ -45,7 +45,7 @@ function ServiceOffered() {
             }
           />
           <AnimateHeader
-            delay={0.45}
+            delay={0.2}
             text={"Offered"}
             className={
               "font-poppins text-white z-20 text-center uppercase text-5xl  mt-12 lg:mt-16  lg:leading-[56.66px] font-bold"

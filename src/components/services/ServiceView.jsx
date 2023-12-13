@@ -33,9 +33,9 @@ function ServiceView() {
       <div className="font-poppins relative w-full">
         <img className="absolute w-[1000px] mx-auto left-[50%] translate-x-[-50%]  -top-[200px]" src={ellipse}/>
         <div className="flex  flex-col items-center relative">
-          <AnimateHeader delay={0.15} text={"What Our"} className={"font-poppins text-white z-20 text-center uppercase text-3xl lg:text-[37.96px] lg:leading-[42.04px] font-semibold "}/>
-          <AnimateHeader delay={0.3} size="large" text={"Agency"} className={"font-poppins text-white z-20 text-center uppercase text-7xl absolute top-6  lg:text-[94.23px] lg:leading-[104.36px] font-extrabold"} />
-          <AnimateHeader delay={0.45} text={"Provides"}  className={"font-poppins text-white z-20 text-center uppercase text-5xl  mt-12 lg:mt-16  lg:leading-[56.66px] font-bold"}/>
+          <AnimateHeader delay={0} text={"What Our"} className={"font-poppins text-white z-20 text-center uppercase text-3xl lg:text-[37.96px] lg:leading-[42.04px] font-semibold "}/>
+          <AnimateHeader delay={0.1} size="large" text={"Agency"} className={"font-poppins text-white z-20 text-center uppercase text-7xl absolute top-6  lg:text-[94.23px] lg:leading-[104.36px] font-extrabold"} />
+          <AnimateHeader delay={0.2} text={"Provides"}  className={"font-poppins text-white z-20 text-center uppercase text-5xl  mt-12 lg:mt-16  lg:leading-[56.66px] font-bold"}/>
 
         </div>
         <div className="absolute top-[-90px] lg:right-[-60px] right-[-50px]">

@@ -3,8 +3,9 @@ import { motion } from "framer-motion";
 import DiamondProject from "./DiamondProject";
 import { DiamondProjectsData } from "../../mockData";
 import AnimateHeader from "../ui/AnimateHeader";
-
+import { cubicBezier } from "framer-motion";
 function AboutView() {
+  const eased = cubicBezier(0.65, 0, 0.35, 1)
   return (
     <motion.section
       className="container snap-center mx-auto px-3  bg-blend-soft-light bg-inherit text-[#fff]"
@@ -17,12 +18,12 @@ function AboutView() {
         viewport={{ once: true }}
         className="mb-12 mt-[50px]"
       >
-        <AnimateHeader type={"left"} className="font-poppins font-semibold leading-[56px] text-5xl text-white uppercase" text={"who are"} delay={0.15}>
+        <AnimateHeader type={"left"} className="font-poppins font-semibold leading-[56px] text-5xl text-white uppercase" text={"who are"} delay={0}>
           Who are
         </AnimateHeader>
-       <AnimateHeader text={"Web3dma"} type={"left"} delay={0.25} className={"font-poppins text-gradient font-extrabold text-6xl lg:leading-[83.99px] lg:text-[75.84px] tracking-[-2%] text-transparent bg-clip-text bg-gradient-to-r from-[#9000F2] to-[#16DEA8] w-[420px] uppercase"}>
-
-       </AnimateHeader>
+        <h2 className={`font-poppins overflow-y-hidden  font-extrabold text-6xl lg:leading-[83.99px] lg:text-[75.84px] tracking-[-2%] `}>
+        <motion.span viewport={{once:true}} transition={{duration:0.6, ease:eased, type:"tween",delay:0.05}} initial={{y:10, rotate:30}} whileInView={{y:0, rotate:0}}  className="inline-block bg-clip-text  text-transparent bg-gradient-to-r from-[#9000F2] to-[#16DEA8] w-[420px] uppercase   text-gradient  bg-inherit  origin-bottom-left">Web3Dma</motion.span>
+      </h2>
  
       </motion.div>
 
