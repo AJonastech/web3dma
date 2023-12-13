@@ -29,9 +29,9 @@ function Project({ project, id , selectedService}) {
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay: 0 }}
       whileInView={{ y: 0 }}
-      className={`grid grid-cols-1 lg:grid-cols-2`}
+      className={`grid grid-cols-1 lg:grid-cols-2 `}
     >
-      <div className="bg-[#CFCAD105]/[0.1]   h-[436.07px] flex flex-col justify-center font-poppins px-[35px] backdrop-blur-[37px]">
+      <div className="bg-[#CFCAD105]/[0.1]   h-[436.07px] flex flex-col justify-center  font-poppins px-[35px] backdrop-blur-[37px]">
         <motion.p
           whileHover={{ color: "#33d8b0" }}
           className="cursor-pointer text-[17.92px] leading-[20.91px]"

@@ -9,8 +9,8 @@ function FinalResult() {
   return (
     <>
     <section id="projects" className="w-full snap-center relative">
-      <section className="container mt-[100px] lg:mt-[80px] mx-auto px-3  bg-blend-soft-light bg-inherit text-[#fff]">
-        <section className="max-w-[1440px]  mx-auto lg:py-[160px] text-white px-5 lg:px-12 relative">
+      <section className="container mt-[100px] lg:mt-[80px] mx-auto   bg-blend-soft-light bg-inherit text-[#fff]">
+        <section className="container  mx-auto lg:py-[160px] text-white px-3 lg:px-12 relative">
           <div className="flex flex-col mb-[100px] lg:mb-0 items-center  relative">
             <AnimateHeader
               delay={0.15}
