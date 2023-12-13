@@ -27,7 +27,7 @@ function ServiceView() {
   return (
     <section
     id="services"
-      className={`container  snap-center z-30 ${pathname =="/" ? "mt-[100px] lg:mt-[500px]" : "mt-[100px] lg:mt-[150px]"} flex flex-col items-center justify-center mx-auto px-6  bg-inherit text-[#fff]`}
+      className={`container  snap-center z-30 ${pathname =="/" ? "mt-[100px] lg:mt-[500px]" : "mt-[100px] lg:mt-[150px]"} flex flex-col items-center justify-center mx-auto lg:px-6 px-3 bg-inherit text-[#fff]`}
     >
       
       <div className="font-poppins relative w-full">

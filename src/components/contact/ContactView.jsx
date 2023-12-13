@@ -7,7 +7,7 @@ import { easeOut, motion } from "framer-motion";
 function ContactView() {
     return (
         <section
-      className="   mt-[230px] relative px-5 lg:px-0 text-[#fff]"
+      className="   mt-[230px] relative px-3 lg:px-0 text-[#fff]"
       id="contact"
     >
       <div className="absolute  lg:-top-72 -right-12 lg:right-0">
