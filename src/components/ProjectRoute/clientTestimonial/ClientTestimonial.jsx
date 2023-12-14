@@ -1,14 +1,19 @@
 import logo3d from "../../../assets/logo_3d.png";
-import { easeOut, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import AnimateHeader from "../../ui/AnimateHeader";
 import { useParams } from "react-router-dom";
 import { dataSection5 } from "../../../mockData";
 import { cubicBezier } from "framer-motion";
+
 function ClientTestimonial() {
+
+  
+
   const {category, id} = useParams()
   const eased = cubicBezier(0.65, 0, 0.35, 1)
   return (
     <motion.section
+    
       className="container snap-center  mx-auto px-3  bg-blend-soft-light bg-inherit text-[#fff]"
       id="about"
     >
@@ -45,18 +50,20 @@ function ClientTestimonial() {
             className="absolute right-[-100px] top-[-42px] w-[50%] h-[495.69px] hidden lg:block"
           />
         </div>
-
-        <motion.p
+          <div className=" justify-center  lg:justify-start   h-full flex  lg:items-center">
+          <motion.p
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 0.75 }}
-          className="max-w-[525px] text-white font-dmsans text-xl leading-[35px]"
+          className="max-w-[525px] text-white font-dmsans text-xl text-center lg:text-left  lg:leading-[50px] lg:text-2xl leading-[35px]"
           viewport={{once:true}}
         >
           {
            dataSection5[category][id].clientTestimonial
           }
         </motion.p>
+          </div>
+     
 
       </motion.div>
     </motion.section>

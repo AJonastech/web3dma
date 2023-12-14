@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import { dataSection5 } from "../../../mockData";
 import { useNavigate } from "react-router-dom";
+import web3Dma from "../../../assets/web3dmaHero.svg"; 
 function ProjectHero() {
   const { category, id } = useParams();
   const navigate = useNavigate()
@@ -30,7 +31,7 @@ function ProjectHero() {
           <nav className="hidden  h-full lg:flex items-center justify-center w-full absolute top-0 left-0  ">
             <ul className="flex justify-center ">
               <li>
-                <Link className="text-base dmSans hover:text-purple tracking-tighter font-normal transition-all ease-out" to={"/"}>Home</Link>
+                <Link className="text-base dmSans hover:text-purple hover:scale-[1.15] duration-200 inline-block tracking-tighter font-normal transition-all ease-out" to={"/"}>Home</Link>
               </li>
             </ul>
           </nav>
@@ -51,6 +52,10 @@ function ProjectHero() {
         </header>
         <MobileNav showMobileNav={showMobileNav} />
         <div className="relative px-3 lg:px-10 font-poppins h-[calc(100vh-100px)] flex flex-col justify-center items-center">
+        <img
+            src={web3Dma}
+            className="absolute top-0 right-0"
+          />
           <p className="text-left  w-[90%] mx-auto text-[24px] lg:text-[36px] font-semibold lg:leading-[54px] text-green">
             Portfolio
           </p>

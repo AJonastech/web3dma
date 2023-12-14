@@ -20,12 +20,13 @@ function Project({ project, id , selectedService}) {
  const gotoProjectPage = ()=>{
   navigate(`/project/${selectedService}/${id}`)
  }
+ 
   return (
     <motion.div
-    onClick={gotoProjectPage}
-    ref={projectRef}
+      onClick={gotoProjectPage}
+      ref={projectRef}
       initial={{ y: 150 }}
-      style={{scale:scaleObject, opacity:opacity}}
+      style={{ scale: scaleObject, opacity: opacity }}
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay: 0 }}
       whileInView={{ y: 0 }}
@@ -46,7 +47,12 @@ function Project({ project, id , selectedService}) {
           {project.title}
         </motion.p>
 
-        <motion.div initial="rest" whileHover="hover" animate="rest" className="mt-[42px] cursor-pointer hover:text-green  flex items-center gap-x-[5px]">
+        <motion.div
+          initial="rest"
+          whileHover="hover"
+          animate="rest"
+          className="mt-[42px] cursor-pointer hover:text-green  flex items-center gap-x-[5px]"
+        >
           <p className="text-[13.44px] leading-[16.38px] font-medium">
             Case Study
           </p>
@@ -55,13 +61,16 @@ function Project({ project, id , selectedService}) {
           </motion.button>
         </motion.div>
       </div>
-      <motion.div className={`object-cover ${(id+1)%2==0 ?"row-start-1":""}  overflow-hidden cursor-pointer  h-[436.07px] bg-no-repeat bg-cover bg-center`}>
+      <motion.div
+        className={`object-cover ${
+          (id + 1) % 2 == 0 ? "row-start-1" : ""
+        }  overflow-hidden cursor-pointer  h-[436.07px] bg-no-repeat bg-cover bg-center`}
+      >
         <motion.div
           whileHover={{ scale: 1.05 }}
-          style={{ background: `url(${ project.image })` ,opacity:opacity}}
+          style={{ background: `url(${project.image})`, opacity: opacity }}
           className={` h-full `}
-        >
-        </motion.div>
+        ></motion.div>
       </motion.div>
     </motion.div>
   );

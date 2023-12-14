@@ -1,10 +1,12 @@
 import Input  from "./Input"
 import contact from "../../assets/contact.svg"
 import Button from "../Hero/Button"
-import { FaPhoneAlt } from "react-icons/fa";
 import AnimateHeader from "../ui/AnimateHeader";
 import { easeOut, motion } from "framer-motion";
+import { AiOutlineMail } from "react-icons/ai";
+import { Link } from "react-router-dom";
 function ContactView() {
+
     return (
         <section
       className="   mt-[230px] relative px-3 lg:px-0 text-[#fff]"
@@ -39,13 +41,13 @@ function ContactView() {
           <div className="bg-[url('./assets/Frame2.png')] bg-no-repeat bg-cover bg-center h-[229px] px-[44px] py-[50px] text-white leading-8 font-dmsans font-medium space-y-[22px]">
             <div className="flex items-center gap-x-[18px] ">
               <div className="w-[64px] h-[64px] rounded-full bg-[#0C0C30] flex justify-center items-center">
-              <FaPhoneAlt className="text-2xl rotate-[15deg]" />
+              <AiOutlineMail className="text-2xl" />
               </div>
 
-              <p className="text-xl">Phone</p>
+              <p className="text-[20px]"> {"Email"}</p>
             </div>
 
-            <p className="text-[22px]">+1 (234) 567-89-00</p>
+            <p className="text-[22px]">{<Link to={"mailto:Hello@web3dma.com"}>Hello@web3dma.com</Link> }</p>
           </div>          
         </div>
       </div>

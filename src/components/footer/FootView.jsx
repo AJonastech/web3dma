@@ -1,7 +1,7 @@
-import { BiLogoFacebook, BiLogoInstagramAlt } from "react-icons/bi";
-import { AiFillYoutube } from "react-icons/ai";
+import { BiLogoInstagramAlt } from "react-icons/bi";
 import logo from "../../assets/logo.svg";
 import { motion } from "framer-motion";
+import { IoLogoTwitter } from "react-icons/io"
 export default function Footer() {
   return (
     <footer className="mt-[200px] ">
@@ -20,11 +20,11 @@ export default function Footer() {
             <motion.a
             whileHover={{translateY:-5}}
               className="w-[40px] h-[40px] hover:bg-purple  text-primary hover:text-[#fff] cursor-pointer rounded-full bg-[#fff] flex items-center justify-center"
-              href="https://www.facebook.com/web3dma"
+              href="https://twitter.com/web3dma"
               target="_blank"
               rel="noreferrer"
             >
-              <BiLogoFacebook className="text-lg" />
+              <IoLogoTwitter className="text-lg" />
             </motion.a>
 
             <motion.a
@@ -35,16 +35,6 @@ export default function Footer() {
               rel="noreferrer"
             >
               <BiLogoInstagramAlt className="text-lg" />
-            </motion.a>
-
-            <motion.a
-              whileHover={{translateY:-5}}
-              className="w-[40px] cursor-pointer hover:bg-purple h-[40px] hover:translate-y-[-5px] text-primary hover:text-[#fff] rounded-full bg-[#fff] flex items-center justify-center"
-              href="https://www.youtube.com/web3dma"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <AiFillYoutube className="text-lg" />
             </motion.a>
           </div>
         </section>

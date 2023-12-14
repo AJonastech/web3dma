@@ -17,7 +17,7 @@ function ServiceOffered() {
     description,
     features,
   };
-  console.log(targetedProject,data)
+
   return (
     <section
       id="services"

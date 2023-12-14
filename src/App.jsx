@@ -4,7 +4,7 @@ function App() {
 
 
   return (
-    <main className="bg-primary snap-y ">
+    <main className="bg-primary snap-y antialiased">
       <RouteConfig>
       </RouteConfig>
     </main>

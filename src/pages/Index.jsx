@@ -11,6 +11,7 @@ import {
 
 
 function Index() {
+
   return (
     <main className="w-full h-full overflow-hidden select-none">
       <HeroView />

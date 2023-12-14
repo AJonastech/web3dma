@@ -1,4 +1,4 @@
-import { useScroll, useTransform , useMotionValueEvent} from "framer-motion";
+import { useScroll, useTransform} from "framer-motion";
 
 function useCustomScroll(targetRef) {
  
@@ -6,9 +6,7 @@ function useCustomScroll(targetRef) {
     target: targetRef,
     offset: ["start end", "end start"],
   });
-  useMotionValueEvent(scrollYProgress, "change", (latest) => {
-    console.log("Page scroll: ", latest)
-  })
+
   const scaleObject = useTransform(scrollYProgress, [1, 0.6, 0], [0.6, 1, 0.6]);
   const opacity = useTransform(
     scrollYProgress,

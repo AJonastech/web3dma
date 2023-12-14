@@ -34,7 +34,7 @@ const navigate = useNavigate()
               {navData.map((link, id) => (
                 <li key={id}>
                   <a
-                    className="text-base dmSans transition-all ease-out hover:text-purple tracking-tighter font-normal"
+                    className="text-base dmSans inline-block transition-all ease-out duration-200 hover:scale-[1.15]   hover:text-purple tracking-tighter font-normal"
                     href={link.linkRef}
                   >
                     {link.linkItem}
