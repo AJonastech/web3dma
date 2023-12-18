@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { useRef } from "react";
 import useCustomScroll from "../../../hooks/useCustomScroll";
-import { Link } from "react-router-dom";
 const buttonVariant = {
     rest: {
         x:0
@@ -18,7 +17,7 @@ function Project({ project, id , selectedService}) {
  const {scaleObject, opacity} = useCustomScroll(projectRef)
  
   return (
-    <Link to={`/project/${selectedService}/${id}`}>
+    <a  href={`/project/${selectedService}/${id}`}>
       
     <motion.div
       ref={projectRef}
@@ -70,7 +69,7 @@ function Project({ project, id , selectedService}) {
         ></motion.div>
       </motion.div>
     </motion.div>
-    </Link>
+    </a>
   );
 }
 Project.propTypes = {
