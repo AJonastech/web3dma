@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 import { motion } from "framer-motion";
 function Image({ product }) {
   return (
+   
     <motion.div
     viewport={{ once: true }}
       initial={{ y: 150 }}
@@ -19,6 +20,7 @@ function Image({ product }) {
         className="absolute top-0 w-full h-full left-0 bg-[#000]/[0.2] rounded-lg"
       ></motion.div>
     </motion.div>
+  
   );
 }
 Image.propTypes = {

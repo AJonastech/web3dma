@@ -54,7 +54,7 @@ function ClientTestimonial() {
           <motion.p
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ delay: 0.5, duration: 0.75 }}
+          transition={{ delay: 0.2, duration: 0.75 }}
           className="max-w-[525px] text-white font-dmsans text-xl text-center lg:text-left  lg:leading-[50px] lg:text-2xl leading-[35px]"
           viewport={{once:true}}
         >

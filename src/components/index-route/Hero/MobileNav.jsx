@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import { navData } from "../../mockData";
+import { navData } from "../../../mockData";
 import { useLocation } from "react-router-dom";
 
 function MobileNav({ showMobileNav, }) {

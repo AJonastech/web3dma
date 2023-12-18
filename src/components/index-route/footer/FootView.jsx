@@ -1,5 +1,5 @@
 import { BiLogoInstagramAlt } from "react-icons/bi";
-import logo from "../../assets/logo.svg";
+import logo from "../../../assets/logo.svg";
 import { motion } from "framer-motion";
 import { IoLogoTwitter } from "react-icons/io"
 export default function Footer() {

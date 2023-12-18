@@ -1,13 +1,11 @@
-import solana from "../../assets/solana.svg";
-import servicesBorder from "../../assets/ServicesBorder.png";
-
+import solana from "../../../assets/solana.svg";
+import servicesBorder from "../../../assets/ServicesBorder.png";
 import ServiceButton from "./ServiceButton";
-import { servicesData as data } from "../../mockData";
+import { servicesData as data, serviceButtonData as servicesData  } from "../../../mockData";
 import { useState, useEffect } from "react";
 import ListService from "./ListService";
-import ellipse from "../../assets/Ellipse.svg"
-import { serviceButtonData as servicesData } from "../../mockData";
-import AnimateHeader from "../ui/AnimateHeader";
+import ellipse from "../../../assets/Ellipse.svg"
+import AnimateHeader from "../../ui/AnimateHeader"
 import { useLocation } from "react-router-dom";
 
 function ServiceView() {

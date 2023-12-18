@@ -1,5 +1,3 @@
-
-import React from "react";
 import PropTypes from "prop-types"
 import {  motion, cubicBezier } from "framer-motion";
 const eased = cubicBezier(0.65, 0, 0.35, 1)

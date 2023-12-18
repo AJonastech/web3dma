@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
-import Vector from "../../assets/Vector.png";
-import { dataSection5 as data } from "../../mockData";
+import Vector from "../../../assets/Vector.png";
+import { dataSection5 as data } from "../../../mockData";
 import Project from "./Project";
 import FilterButton from "./FilterButton";
-import AnimateHeader from "../ui/AnimateHeader";
+import AnimateHeader from "../../ui/AnimateHeader";
 function Portfolio() {
   const [selectedService, setSelectedService] = useState("website");
   const [filteredServices, setFilteredServices] = useState(data.website);
@@ -22,7 +22,7 @@ function Portfolio() {
         <img
           src={Vector}
           alt="Vector"
-          className="w-full  absolute left-0 border-10 top-[1100px] mx-auto max-h-[1580.42px] z-0"
+          className="w-full  absolute left-0 border-10 top-[1100px] mx-auto  max-h-[1580.42px] z-0"
         />
         <section className="container   mx-auto lg:py-[160px]  text-white  px-3 lg:px-12 relative">
           <div className="flex flex-col items-center  relative">
@@ -40,7 +40,7 @@ function Portfolio() {
               />
             ))}
           </div>
-          <div className=" mt-5 lg:mt-[180px] max-w-[980px]    mx-auto lg:space-y-[20px] space-y-[10px] ">
+          <div className=" mt-5 lg:mt-[180px] max-w-[980px]   mx-auto lg:space-y-[20px] space-y-[10px] ">
             {filteredServices?.map((project, id) => (
               <Project project={project} key={id} id={id} selectedService={selectedService} />
             ))}

@@ -1,5 +1,5 @@
 import AnimateHeader from "../../ui/AnimateHeader";
-import "../../Hero/style.css";
+import "../../index-route/Hero/style.css";
 import GalleryContainer from "./Gallery";
 
 //import { motion } from "framer-motion";

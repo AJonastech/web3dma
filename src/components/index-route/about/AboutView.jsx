@@ -1,8 +1,8 @@
-import logo3d from "../../assets/logo_3d.png";
+import logo3d from "../../../assets/logo_3d.png";
 import { motion } from "framer-motion";
 import DiamondProject from "./DiamondProject";
-import { DiamondProjectsData } from "../../mockData";
-import AnimateHeader from "../ui/AnimateHeader";
+import { DiamondProjectsData } from "../../../mockData";
+import AnimateHeader from "../../ui/AnimateHeader";
 import { cubicBezier } from "framer-motion";
 function AboutView() {
   const eased = cubicBezier(0.65, 0, 0.35, 1)
@@ -32,7 +32,7 @@ function AboutView() {
         whileInView={{  opacity:  1, y :0 }}
         transition={{ duration: 0.5, delay: 0.2 }}
         viewport={{ once: true }}
-        className="relative h-auto lg:h-[489px] w-full mt-[30px] p-6 lg:py-[39px] lg:px-[79px] bg-[#131339] rounded-l-[10px] rounded-tr-[20px] lg:rounded-l-[40px] lg:rounded-tr-[133px] rounded-br-[14px] lg:rounded-br-[70px] bg-[url('/bg_div.png')] bg-no-repeat bg-cover"
+        className="relative h-auto lg:h-[489px] w-full mt-[30px] p-6 lg:py-[39px] lg:px-[79px] bg-[#131339] rounded-l-[10px] rounded-tr-[20px] lg:rounded-l-[40px] lg:rounded-tr-[133px] rounded-br-[14px] lg:rounded-br-[70px] "
       >
         <div className="relative w-full">
           <img
@@ -42,7 +42,7 @@ function AboutView() {
           />
         </div>
 
-        <motion.p viewport={{once:true}} initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay:0.5, duration:0.75}} className="max-w-[525px] text-white font-dmsans text-xl leading-[35px]">
+        <motion.p viewport={{once:true}} initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay:0.2, duration:0.75}} className="max-w-[525px] text-white font-dmsans text-xl leading-[35px]">
           Web3dma are an innovative and passionate team of technology experts
           who are willing to take on any challenge. With years of industry
           experience and an eye on emerging technologies, we are best placed to

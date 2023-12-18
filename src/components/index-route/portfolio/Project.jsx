@@ -2,8 +2,7 @@ import { motion } from "framer-motion";
 import PropTypes from "prop-types";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { useRef } from "react";
-import useCustomScroll from "../../hooks/useCustomScroll";
-import { useNavigate } from "react-router-dom";
+import useCustomScroll from "../../../hooks/useCustomScroll";
 const buttonVariant = {
     rest: {
         x:0
@@ -16,21 +15,18 @@ function Project({ project, id , selectedService}) {
   
   const projectRef = useRef(null)
  const {scaleObject, opacity} = useCustomScroll(projectRef)
- const navigate = useNavigate()
- const gotoProjectPage = ()=>{
-  navigate(`/project/${selectedService}/${id}`)
- }
  
   return (
+    <a href={`/project/${selectedService}/${id}`}>
+      
     <motion.div
-      onClick={gotoProjectPage}
       ref={projectRef}
       initial={{ y: 150 }}
       style={{ scale: scaleObject, opacity: opacity }}
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay: 0 }}
       whileInView={{ y: 0 }}
-      className={`grid grid-cols-1 lg:grid-cols-2 `}
+      className={`grid grid-cols-1 lg:grid-cols-2 snap-center`}
     >
       <div className="bg-[#CFCAD105]/[0.1]   h-[436.07px] flex flex-col justify-center  font-poppins px-[35px] backdrop-blur-[37px]">
         <motion.p
@@ -73,6 +69,7 @@ function Project({ project, id , selectedService}) {
         ></motion.div>
       </motion.div>
     </motion.div>
+    </a>
   );
 }
 Project.propTypes = {

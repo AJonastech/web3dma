@@ -52,4 +52,31 @@ blockquote::after {
   color: transparent;
 }
 
+@keyframes loader-animation {
+  0% {
+    transform: translateX(60px);
+  }
 
+  25% {
+    transform: translateX(60px);
+  }
+
+  50% {
+    transform: translateX(-10px);
+  }
+
+  75% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    transform: translateX(60px);
+  }
+}
+
+.animate-loader {
+  animation-name: loader-animation;
+  animation-duration: 1.5s;
+  animation-timing-function: cubic-bezier(0.165, 0.840, 0.440, 1.000);
+  animation-iteration-count: infinite;
+}

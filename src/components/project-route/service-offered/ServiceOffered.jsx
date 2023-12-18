@@ -1,6 +1,6 @@
-import AnimateHeader from "../../ui/AnimateHeader";
+import AnimateHeader from "../../ui/AnimateHeader" 
 import solana from "../../../assets/solana.svg";
-import ListService from "../../services/ListService";
+import ListService from "../../index-route/services/ListService";
 import { useParams } from "react-router-dom";
 import { dataSection5 } from "../../../mockData";
 import ellipse from "../../../assets/Ellipse.svg"

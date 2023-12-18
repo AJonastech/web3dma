@@ -1,5 +1,5 @@
 import PropTypes from "prop-types"
-import check from '../../assets/check.svg';
+import check from '../../../assets/check.svg';
 function FeatureItem({ feature }) {
     return (
       <div className="flex gap-x-[11px]" key={feature}>

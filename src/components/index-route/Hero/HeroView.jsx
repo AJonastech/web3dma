@@ -1,7 +1,7 @@
-import logo from "../../assets/logo.svg";
-import hero from "../../assets/hero.svg";
-import web3Dma from "../../assets/web3dmaHero.svg";
-import { navData } from "../../mockData";
+import logo from "../../../assets/logo.svg" 
+import hero from "../../../assets/hero.svg";
+import web3Dma from "../../../assets/web3dmaHero.svg";
+import { navData } from "../../../mockData";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { useState } from "react";
 import "./style.css";

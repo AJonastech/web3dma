@@ -5,12 +5,12 @@ import {
   ContactView,
   FinalResult,
 } from "../components";
-import ServiceOffered from "../components/ProjectRoute/service-offered/ServiceOffered";
+import ServiceOffered from "../components/project-route/service-offered/ServiceOffered";
 
 function Project() {
+
   return (
-    <div className="w-full h-full overflow-x-hidden select-none">
-    
+    <div className="w-full  h-full overflow-x-hidden select-none">
       <ProjectHero />
       <ClientTestimonial />
       <ServiceOffered/>

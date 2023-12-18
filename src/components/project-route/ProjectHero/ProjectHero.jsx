@@ -1,19 +1,22 @@
 import logo from "../../../assets/logo.svg";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { useState } from "react";
-import "../../Hero/style.css";
-import MobileNav from "../../Hero/MobileNav";
+import "../../index-route/Hero/style.css";
+import MobileNav from "../../index-route/Hero/MobileNav";
 import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import { dataSection5 } from "../../../mockData";
 import { useNavigate } from "react-router-dom";
-import web3Dma from "../../../assets/web3dmaHero.svg"; 
+import web3Dma from "../../../assets/web3dmaHero.svg";
 function ProjectHero() {
   const { category, id } = useParams();
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   const [showMobileNav, setShowMobileNav] = useState(false);
   const toggleNav = () => [setShowMobileNav(() => !showMobileNav)];
+  const headHome = () => {
+    navigate("/");
+  };
   return (
     <section
       id="hero"
@@ -22,7 +25,7 @@ function ProjectHero() {
       <div className="h-[13px] z-10 animate-gradient"></div>
       <div className="relative bg-inherit bg-blend-soft-light">
         <header className="flex h-[87px] justify-between items-center relative px-3 lg:px-12">
-          <div onClick={()=>{navigate("/")}} className="flex cursor-pointer gap-1">
+          <div onClick={headHome} className="flex z-20 cursor-pointer gap-1">
             <img src={logo} alt="web3Dma logo" />
             <span className="text-2xl font-semibold tracking-wide">
               Web3dma
@@ -31,7 +34,12 @@ function ProjectHero() {
           <nav className="hidden  h-full lg:flex items-center justify-center w-full absolute top-0 left-0  ">
             <ul className="flex justify-center ">
               <li>
-                <Link className="text-base dmSans hover:text-purple hover:scale-[1.15] duration-200 inline-block tracking-tighter font-normal transition-all ease-out" to={"/"}>Home</Link>
+                <Link
+                  className="text-base dmSans hover:text-purple hover:scale-[1.15] duration-200 inline-block tracking-tighter font-normal transition-all ease-out"
+                  to={"/"}
+                >
+                  Home
+                </Link>
               </li>
             </ul>
           </nav>
@@ -52,10 +60,7 @@ function ProjectHero() {
         </header>
         <MobileNav showMobileNav={showMobileNav} />
         <div className="relative px-3 lg:px-10 font-poppins h-[calc(100vh-100px)] flex flex-col justify-center items-center">
-        <img
-            src={web3Dma}
-            className="absolute top-0 right-0"
-          />
+          <img src={web3Dma} className="absolute top-0 right-0" />
           <p className="text-left  w-[90%] mx-auto text-[24px] lg:text-[36px] font-semibold lg:leading-[54px] text-green">
             Portfolio
           </p>

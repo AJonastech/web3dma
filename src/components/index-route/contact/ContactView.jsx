@@ -1,7 +1,7 @@
 import Input  from "./Input"
-import contact from "../../assets/contact.svg"
+import contact from "../../../assets/contact.svg"  
 import Button from "../Hero/Button"
-import AnimateHeader from "../ui/AnimateHeader";
+import AnimateHeader from "../../ui/AnimateHeader";
 import { easeOut, motion } from "framer-motion";
 import { AiOutlineMail } from "react-icons/ai";
 import { Link } from "react-router-dom";
