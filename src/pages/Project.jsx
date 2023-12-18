@@ -10,14 +10,14 @@ import ServiceOffered from "../components/project-route/service-offered/ServiceO
 function Project() {
 
   return (
-    <div className="w-full  h-full overflow-x-hidden select-none">
+    <main className="w-full  h-full overflow-x-hidden select-none">
       <ProjectHero />
       <ClientTestimonial />
       <ServiceOffered/>
       <FinalResult />
       <ContactView />
       <FootView />
-    </div>
+    </main>
   );
 }
 
