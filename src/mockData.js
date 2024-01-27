@@ -66,7 +66,7 @@ export const dataSection5 = {
        
       I am incredibly grateful for their expertise and professionalism in bringing our project to fruition.`,
       images: ['/tmmw-1.png', '/tmmw-2.png', '/tmmw-3.png', '/tmmw-4.png'],
-      service_Category: 'Web Apps Design and Development',
+      service_Category: 'Website Design and Development',
       service_description:
         'Whether you need a low-cost landing page coded from scratch, or a scalable E-Commerce platform built from the ground up, we have the expertise, team, and workflow to deliver.',
       service_features: [
@@ -78,23 +78,61 @@ export const dataSection5 = {
       service_image: '/tmmw-laptop.png',
     },
     {
-      title: 'MCC x MCC B',
+      title: 'MCC Jewellery',
       subTitle: 'Ecommerce',
-      image: `${baseUrl}/image2.png`,
-      clientName: 'Agu Jonas',
+      image: `${baseUrl}/MCCJ01.png`,
+      clientName: 'Alexa Haplin - MCC Jewellery',
       clientTestimonial:
-        'The team at web3dma not only brought my vision to life through a bespoke website but also moved my entire business online. This has transformed the way I run my business and I’m incredibly excited to see the growth',
-      images: ['/test-1.png', '/test-2.png', '/test-3.png', '/test-4.png'],
-      service_Category: 'Web Apps Design and Development',
+        'Working with the guys at Web3dma has been great! Our business needed two custom websites which they built from scratch for us! We had no idea what we wanted our websites to initially look like but Jonny & Matt were extremely patience with us. They made constant communication throughout the process, allowing us to change and tweak to suit our needs. Would highly recommend, thank you!',
+      images: ['/MCCJ01.png', '/MCCJ02.png', '/MCCJ03.png', '/MCCJ04.png'],
+      service_Category: 'Website Design and Development',
       service_description:
-        'Whether you need a website building from scratch, or a modernisation of what you currently have, we will help to drive more traffic to your business.',
+        'Whether you need a low-cost landing page coded from scratch, or a scalable E-Commerce platform built from the ground up, we have the expertise, team, and workflow to deliver.',
       service_features: [
-        'Web Apps Design and Development',
-        'UI/UX Design',
-        'Cloud Integration',
-        'E-Commerce',
+        'E-Commerce and CMS Platforms such as WordPress and Shopify',
+        'Professional and Modern Landing Pages to Match Your Brand',
+        'Advanced Customer Security and Personal Data Protection ',
+        'Incorporation of SEO and Reporting to Drive Results',
       ],
-      service_image: '/mobile.png',
+      service_image: '/MCCJ01.png',
+    },
+    {
+      title: 'MCC Bullion',
+      subTitle: 'Website',
+      image: `${baseUrl}/MCCB01.png`,
+      clientName: 'Alexa Haplin - MCC Jewellery',
+      clientTestimonial:
+        'Working with the guys at Web3dma has been great! Our business needed two custom websites which they built from scratch for us! We had no idea what we wanted our websites to initially look like but Jonny & Matt were extremely patience with us. They made constant communication throughout the process, allowing us to change and tweak to suit our needs. Would highly recommend, thank you!',
+      images: ['/MCCB01.png', '/MCCB02.png', '/MCCB03.png', '/MCCB04.png'],
+      service_Category: 'Website Design and Development',
+      service_description:
+        'Whether you need a low-cost landing page coded from scratch, or a scalable E-Commerce platform built from the ground up, we have the expertise, team, and workflow to deliver.',
+      service_features: [
+        'E-Commerce and CMS Platforms such as WordPress and Shopify',
+        'Professional and Modern Landing Pages to Match Your Brand',
+        'Advanced Customer Security and Personal Data Protection ',
+        'Incorporation of SEO and Reporting to Drive Results',
+      ],
+      service_image: '/MCCB01.png',
+    },
+    {
+      title: 'Peak Challenge',
+      subTitle: 'Ecommerce',
+      image: `${baseUrl}/PEAK01.png`,
+      clientName: 'Jonny Collins - Peak Challenge',
+      clientTestimonial:
+        'I recently had the pleasure of working with the team at Web3dma who helped me to launch my business. From the beginning it was very clear that Web3dma have a wealth of knowledge and understanding in their field. Their ability to translate my vision into a fully functional and attractive website was well beyond my expectation. The communication throughout the project was faultless. The team kept me informed at every stage of the development and really went above and beyond to deliver high quality work in the timeframe given. They were very flexible and listened to any feedback I had, ensuring it was incorporated into the site. I couldn’t be happier with my website. They did such a professional job, I would 100% use them again.',
+      images: ['/PEAK01.png', '/PEAK02.png', '/PEAK03.png', '/PEAK04.png'],
+      service_Category: 'Website Design and Development',
+      service_description:
+        'Whether you need a low-cost landing page coded from scratch, or a scalable E-Commerce platform built from the ground up, we have the expertise, team, and workflow to deliver.',
+      service_features: [
+        'E-Commerce and CMS Platforms such as WordPress and Shopify',
+        'Professional and Modern Landing Pages to Match Your Brand',
+        'Advanced Customer Security and Personal Data Protection ',
+        'Incorporation of SEO and Reporting to Drive Results',
+      ],
+      service_image: '/PEAK01.png',
     },
   ],
   apps: [],
