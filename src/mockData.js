@@ -56,7 +56,7 @@ export const dataSection5 = {
     {
       title: 'The Meat Man Wirral ',
       subTitle: 'Ecommerce',
-      image: `${baseUrl}/tmmw-laptop.png`,
+      image: `${baseUrl}/tmmw-4.png`,
       clientName: 'Tom Langford - The Meat Man Wirral',
       clientTestimonial: `I highly recommend Web3dma for their exceptional work on The Meat Man Wirral. Their design expertise bought our vision to life with precision and style. The attention to detail and professionalism truly made the process seamless. I couldn't be happier with the result!
  

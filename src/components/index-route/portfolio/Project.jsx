@@ -26,7 +26,7 @@ function Project({ project, id , selectedService}) {
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay: 0 }}
       whileInView={{ y: 0 }}
-      className={`grid grid-cols-1 lg:grid-cols-2 snap-center`}
+      className={`grid grid-cols-1  lg:grid-cols-2 snap-center`}
     >
       <div className="bg-[#CFCAD105]/[0.1]   h-[436.07px] flex flex-col justify-center  font-poppins px-[35px] backdrop-blur-[37px]">
         <motion.p
@@ -62,11 +62,16 @@ function Project({ project, id , selectedService}) {
           (id + 1) % 2 == 0 ? "row-start-1" : ""
         }  overflow-hidden cursor-pointer  h-[436.07px] bg-no-repeat bg-cover bg-center`}
       >
-        <motion.div
-          whileHover={{ scale: 1.05 }}
-          style={{ background: `url(${project.image})`, opacity: opacity }}
-          className={` h-full `}
-        ></motion.div>
+     <motion.div
+    whileHover={{ scale: 1.05 }}
+    style={{ 
+        background: `url(${project.image}) no-repeat`, 
+        backgroundSize: 'cover', 
+        backgroundPosition: 'center',
+        opacity: opacity 
+    }}
+    className={`h-full w-full`}
+></motion.div>
       </motion.div>
     </motion.div>
     </a>

@@ -41,7 +41,7 @@ function ClientTestimonial() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.2 }}
         viewport={{ once: true }}
-        className="relative h-auto lg:h-[489px] w-full mt-[30px] p-6 lg:py-[39px] lg:px-[79px] bg-[#131339] rounded-l-[10px] rounded-tr-[20px] lg:rounded-l-[40px] lg:rounded-tr-[133px] rounded-br-[14px] lg:rounded-br-[70px] bg-[url('/bg_div.png')] bg-no-repeat bg-cover"
+        className="relative h-auto  lg:min-h-[489px] w-full mt-[30px] p-6 lg:py-[39px] lg:px-[45px] bg-[#131339] rounded-l-[10px] rounded-tr-[20px] lg:rounded-l-[40px] lg:rounded-tr-[133px] rounded-br-[14px] lg:rounded-br-[70px] bg-[url('/bg_div.png')] bg-no-repeat bg-cover"
       >
         <div className="relative w-full">
           <img
@@ -50,18 +50,18 @@ function ClientTestimonial() {
             className="absolute right-[-100px] top-[-42px] w-[50%] h-[495.69px] hidden lg:block"
           />
         </div>
-          <div className=" justify-center  lg:justify-start   h-full flex  lg:items-center">
+          <div className="  justify-center   lg:justify-start   h-full flex  lg:items-center">
           <motion.p
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ delay: 0.2, duration: 0.75 }}
-          className="max-w-[525px] text-white font-dmsans text-xl text-center lg:text-left  lg:leading-[50px] lg:text-2xl leading-[35px]"
-          viewport={{once:true}}
-        >
-          {
-           dataSection5[category][id].clientTestimonial
-          }
-        </motion.p>
+    initial={{ opacity: 0 }}
+    whileInView={{ opacity: 1 }}
+    transition={{ delay: 0.2, duration: 0.75 }}
+    className="max-w-[600px] px-4 text-white font-dmsans text-base sm:text-lg lg:text-xl text-center sm:text-left leading-snug sm:leading-normal md:leading-relaxed"
+    viewport={{once:true}}
+>
+    {
+        dataSection5[category][id].clientTestimonial
+    }
+</motion.p>
           </div>
      
 
