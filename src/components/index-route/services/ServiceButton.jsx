@@ -1,21 +1,21 @@
-import PropTypes from "prop-types";
-import { BsGlobe2 } from "react-icons/bs";
-import { RiSmartphoneLine } from "react-icons/ri";
-import { FaInstagram } from "react-icons/fa";
-import { VscSymbolColor } from "react-icons/vsc";
-import { FaChess } from "react-icons/fa";
+import PropTypes from 'prop-types';
+import { BsGlobe2 } from 'react-icons/bs';
+import { RiSmartphoneLine } from 'react-icons/ri';
+import { FaInstagram } from 'react-icons/fa';
+import { VscSymbolColor } from 'react-icons/vsc';
+import { FaChess } from 'react-icons/fa';
 function ServiceButton({ name, changeSelectedService, filter }) {
   const getIconFromName = (iconName) => {
     switch (iconName) {
-      case "website":
+      case 'websites':
         return <BsGlobe2 />;
-      case "apps":
+      case 'apps':
         return <RiSmartphoneLine />;
-      case "social":
+      case 'socials':
         return <FaInstagram />;
-      case "branding":
+      case 'digitisation':
         return <VscSymbolColor />;
-      case "strategy":
+      case 'consulting':
         return <FaChess />;
     }
   };
@@ -26,11 +26,11 @@ function ServiceButton({ name, changeSelectedService, filter }) {
         changeSelectedService(name);
       }}
       className={`${
-        filter == name ? "text-green" : "text-[#fff]"
+        filter == name ? 'text-green' : 'text-[#fff]'
       } flex hover:text-green flex-col justify-center items-center gap-y-1`}
     >
-      <p className="lg:text-4xl text-2xl ">{icon}</p>
-      <small className="lg:text-[12px] text-[11px]">{name}</small>
+      <p className='lg:text-4xl text-2xl '>{icon}</p>
+      <small className='lg:text-[12px] text-[11px]'>{name}</small>
     </button>
   );
 }
