@@ -21,17 +21,17 @@ export const DiamondProjectsData = [
   {
     number: '5',
     type: 'WEBSITES',
-    url: `${baseUrl}/port1.png`,
+    url: `/port1.png`,
   },
   {
     number: '2',
     type: 'APPS',
-    url: `${baseUrl}/port2.png`,
+    url: `/port2.png`,
   },
   {
     number: '1',
     type: 'DIGITISATION',
-    url: `${baseUrl}/port3.png`,
+    url: `/port3.png`,
   },
 ];
 export const serviceButtonData = [
@@ -151,7 +151,7 @@ export const servicesData = {
       'Advanced Customer Security and Personal Data Protection',
       'Incorporation of SEO and Reporting to Drive Results',
     ],
-    image: '/tmmw-mobile.png',
+    image: '/tmmw-1.png',
   },
   apps: {
     title: 'Mobile App Design and Development',
@@ -163,7 +163,7 @@ export const servicesData = {
       'Cloud Integration',
       'In-App Revenue',
     ],
-    image: '/apps-graphic.png',
+    image: '/apps-graphic.jpg',
   },
   socials: {
     title: 'Social Media Marketing and Design',
@@ -175,7 +175,7 @@ export const servicesData = {
       'Scheduling and Automation of Posts Across all Channels',
       'Data Insights and Analysis for Effective Lead Generation ',
     ],
-    image: '/social-graphic.png',
+    image: '/social.png',
   },
   digitisation: {
     title: 'Business Operation Digitisation and Automation ',
@@ -187,7 +187,7 @@ export const servicesData = {
       'Building Your Digital Footprint for Business Longevity ',
       'Utilising the Cloud to Empower Your Operations ',
     ],
-    image: '/digital-graphic.png',
+    image: '/automation.jpeg',
   },
   consulting: {
     title: 'Emerging Technology Consulting ',
@@ -199,6 +199,6 @@ export const servicesData = {
       'Knowledge Transfer, Sharing, and Training to Stay Ahead ',
       'Leverage our Infrastructure and Ability to Scale Your Organisation ',
     ],
-    image: '/consulting-graphic.png',
+    image: '/consulting.jpeg',
   },
 };

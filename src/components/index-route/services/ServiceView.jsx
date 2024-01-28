@@ -68,7 +68,7 @@ function ServiceView() {
         </div>
       </div>
 
-      <div className='w-full  mt-[50px] h-[100px] relative '>
+      <div className='w-full  mt-[50px]  h-[100px] relative '>
         <div className='h-full flex items-center justify-around max-w-[1000px] w-full left-[50%] translate-x-[-50%]  top-0 absolute '>
           {servicesData.map((service, id) => (
             <ServiceButton
@@ -86,10 +86,10 @@ function ServiceView() {
         <img
           src={filteredServices.image}
           alt='Default Alt Text'
-          className='lg:absolute  xl:max-w-[400px]  max-w-[350px] -top-[50px] lg:mt-0 mt-[-100px] mb-10 lg:mb-0 left-[50px] z-20 mx-auto object-cover object-center '
+          className='lg:absolute w-full h-[90%] rounded-xl lg:top-[50%] lg:-translate-y-[50%]  xl:max-w-[430px]    -top-[50px] lg:mt-0 mt-[-100px] mb-10 lg:mb-0 left-[50px] z-20 mx-auto object-cover object-center  '
         />
-        <div className="h-auto bg-[url('./assets/bg_mobile.png')]   relative lg:h-[489px]  w-full bg-no-repeat bg-cover rounded-[40px] grid grid-cols-1 lg:grid-cols-[45%_55%]">
-          <div className='lg:grid lg:grid-cols-2' />
+        <div className="h-auto bg-[url('/bg_mobile.png')]   relative lg:h-[489px]  w-full bg-no-repeat bg-cover rounded-[40px] grid grid-cols-1 lg:grid-cols-[45%_55%]">
+          <div className='lg:grid lg:grid-cols-2  h-full' />
           <ListService data={filteredServices} />
         </div>
       </div>

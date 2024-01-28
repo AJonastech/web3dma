@@ -61,9 +61,9 @@ function ServiceOffered() {
         <img
           src={targetedProject?.service_image}
           alt="Default Alt Text"
-          className="lg:absolute xl:max-w-[450px]  max-w-[350px] h-[80%] lg:top-[50%] lg:-translate-y-[50%]  object-cover object-center    -top-[50px] lg:mt-0 mt-[-100px] mb-10 lg:mb-0 left-[50px] z-20 mx-auto "
+          className="lg:absolute xl:max-w-[450px]  w-full h-[80%] lg:top-[50%] lg:-translate-y-[50%]  object-cover object-center    -top-[50px] lg:mt-0 mt-[-100px] mb-10 lg:mb-0 left-[50px] z-20 mx-auto "
         />
-        <div className="h-auto bg-[url('./assets/bg_mobile.png')]   relative lg:h-[489px]  w-full bg-no-repeat bg-cover rounded-[40px] grid grid-cols-1 lg:grid-cols-[45%_55%]">
+        <div className="h-auto bg-[url('/bg_mobile.png')]   relative lg:h-[489px]  w-full bg-no-repeat bg-cover rounded-[40px] grid grid-cols-1 lg:grid-cols-[45%_55%]">
           <div className="lg:grid lg:grid-cols-2" />
           <ListService data={data} />
         </div>
