@@ -27,7 +27,7 @@ function AboutView() {
           Who are
         </AnimateHeader>
         <h2
-          className={`font-poppins overflow-y-hidden  font-extrabold text-6xl lg:leading-[83.99px] lg:text-[75.84px] tracking-[-2%] `}
+          className={`font-poppins overflow-y-hidden  font-extrabold text-5xl sm:text-6xl lg:leading-[83.99px] lg:text-[75.84px] tracking-[-2%] `}
         >
           <motion.span
             viewport={{ once: true }}
@@ -39,9 +39,9 @@ function AboutView() {
             }}
             initial={{ y: 10, rotate: 30 }}
             whileInView={{ y: 0, rotate: 0 }}
-            className='inline-block bg-clip-text  text-transparent bg-gradient-to-r from-[#9000F2] to-[#16DEA8] w-[420px] uppercase   text-gradient  bg-inherit  origin-bottom-left'
+            className='inline-block bg-clip-text  text-transparent bg-gradient-to-r from-[#9000F2] to-[#16DEA8] overflow-hidden uppercase   text-gradient  bg-inherit  origin-bottom-left'
           >
-            Web3Dma?
+            Web3Dma? 
           </motion.span>
         </h2>
       </motion.div>
