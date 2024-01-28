@@ -55,7 +55,7 @@ function ClientTestimonial() {
     initial={{ opacity: 0 }}
     whileInView={{ opacity: 1 }}
     transition={{ delay: 0.2, duration: 0.75 }}
-    className="max-w-[600px] px-4 text-white font-dmsans text-base sm:text-lg lg:text-xl text-center sm:text-left leading-snug sm:leading-normal md:leading-relaxed"
+    className="max-w-[600px]  sm:px-4 text-white text-left  font-dmsans text-base sm:text-lg lg:text-xl md:text-center sm:text-left leading-snug sm:leading-normal md:leading-relaxed"
     viewport={{once:true}}
 >
     {
