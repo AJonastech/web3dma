@@ -88,7 +88,7 @@ function ServiceView() {
           alt='Default Alt Text'
           className='lg:absolute w-full h-[90%] rounded-xl lg:top-[50%] lg:-translate-y-[50%]  xl:max-w-[430px]    -top-[50px] lg:mt-0 mt-[-100px] mb-10 lg:mb-0 left-[50px] z-20 mx-auto object-cover object-center  '
         />
-        <div className="h-auto bg-[url('./assets/bg_mobile.png')]   relative lg:h-[489px]  w-full bg-no-repeat bg-cover rounded-[40px] grid grid-cols-1 lg:grid-cols-[45%_55%]">
+        <div className="h-auto bg-[url('/bg_mobile.png')]   relative lg:h-[489px]  w-full bg-no-repeat bg-cover rounded-[40px] grid grid-cols-1 lg:grid-cols-[45%_55%]">
           <div className='lg:grid lg:grid-cols-2  h-full' />
           <ListService data={filteredServices} />
         </div>

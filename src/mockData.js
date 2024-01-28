@@ -21,17 +21,17 @@ export const DiamondProjectsData = [
   {
     number: '5',
     type: 'WEBSITES',
-    url: `${baseUrl}/port1.png`,
+    url: `/port1.png`,
   },
   {
     number: '2',
     type: 'APPS',
-    url: `${baseUrl}/port2.png`,
+    url: `/port2.png`,
   },
   {
     number: '1',
     type: 'DIGITISATION',
-    url: `${baseUrl}/port3.png`,
+    url: `/port3.png`,
   },
 ];
 export const serviceButtonData = [
